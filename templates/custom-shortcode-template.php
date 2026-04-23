@@ -4,7 +4,7 @@
 
 
 $query = new WP_Query(array(
-     'post_type' => 'practice',
+     'post_type' => array('practice', 'post'),
 ));
 
 ?>
