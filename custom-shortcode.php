@@ -16,9 +16,11 @@ define('CUSTOM_SHORTCODE_PLUGIN_URL', plugin_dir_url(__FILE__));
 require_once CUSTOM_SHORTCODE_PLUGIN_DIR . 'includes/custom-shortcode.php';
 require_once CUSTOM_SHORTCODE_PLUGIN_DIR . 'includes/custom-metabox.php';
 require_once CUSTOM_SHORTCODE_PLUGIN_DIR . 'includes/custom-post-type.php';
+require_once CUSTOM_SHORTCODE_PLUGIN_DIR . 'includes/custom-admin-menu.php';
 
 
 new Custom_Shortcode();
 new Custom_metabox_Practice();
 new Custom_post_type_Practice();
+new admin_menu_page();
 ?>
